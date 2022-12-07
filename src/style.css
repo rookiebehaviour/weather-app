@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: lightpink;
+}
+
+h3 a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#search-city {
+  border: none;
+}
+
+#location-button,
+#search-button {
+  background: pink;
+  color: black;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease-in-out;
+}
+
+#location-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.container {
+  display: block;
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 650px;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+.current-weather-icon {
+  font-size: 60px;
+}
+
+.current-temperature {
+  font-weight: bold;
+}
+.row {
+  margin-bottom: 10px;
+}
+.days {
+  text-align: center;
+  font-size: 18px;
+}
+
+.weather-icons {
+  font-size: 25px;
+}
