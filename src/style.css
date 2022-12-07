@@ -36,6 +36,7 @@ h3 a {
   margin: 10px auto;
   border-radius: 8px;
 }
+
 .current-weather-icon {
   font-size: 60px;
 }
@@ -53,4 +54,8 @@ h3 a {
 
 .weather-icons {
   font-size: 25px;
+}
+
+.footer {
+  text-decoration: none;
 }
